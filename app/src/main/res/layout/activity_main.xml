@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingTop="@dimen/activity_vertical_margin"
+  tools:context=".MainActivity">
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/main_title"
+    android:textAppearance="@android:style/TextAppearance.Large"
+    android:textStyle="bold"
+    android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_gravity="center_horizontal"
+      android:paddingBottom="@dimen/activity_vertical_margin"
+      android:paddingLeft="@dimen/activity_horizontal_margin"
+      android:paddingRight="@dimen/activity_horizontal_margin"
+      android:paddingTop="@dimen/activity_vertical_margin">
+
+      <Button
+        android:id="@+id/buttonStreamer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_streamer"
+        android:padding="@dimen/button_padding"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_small"
+        android:background="@drawable/button_background_orange"/>
+
+      <Button
+        android:id="@+id/buttonScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_scores"
+        android:padding="@dimen/button_padding"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_small"
+        android:background="@drawable/button_background_orange"/>
+
+      <Button
+        android:id="@+id/buttonLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_library"
+        android:padding="@dimen/button_padding"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_small"
+        android:background="@drawable/button_background_orange"/>
+
+      <Button
+        android:id="@+id/buttonBigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_bigger"
+        android:padding="@dimen/button_padding"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_small"
+        android:background="@drawable/button_background_orange"/>
+
+      <Button
+        android:id="@+id/buttonReader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_reader"
+        android:padding="@dimen/button_padding"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_small"
+        android:background="@drawable/button_background_orange"/>
+
+      <Button
+        android:id="@+id/buttonCapstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_capstone"
+        android:padding="@dimen/button_padding"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_small"
+        android:background="@drawable/button_background_red"/>
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>
